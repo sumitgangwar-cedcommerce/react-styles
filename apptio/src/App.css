@@ -1,0 +1,57 @@
+.App {
+  /* text-align: center; */
+  padding-top:5vw;
+  background-color: #7ECAD0;
+  width: 100%;
+  min-height: 92vh;
+}
+.navbar{
+  /* width: 100%; */
+  
+  padding-left: 5vw;
+  /* padding-right: 2vw; */
+  display:grid;
+  grid-template-columns: 3fr 9fr;
+  color: white;
+}
+.navbar .navigation{
+  cursor: pointer;
+  text-align: right;
+  padding-top:1.5vw;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+} 
+.navbar .navigation button{
+  border:none;
+  background-color:#FD672D;
+  color:white;
+  padding:0.5vw;
+}
+#content {
+  color:white;
+  padding-left: 5vw;
+  padding-top: 10%;
+  display:grid;
+  gap: 2vw;
+  grid-template-columns: 3fr 5fr;
+}
+td input{
+  width: 100%;
+  border:none;
+  outline:none;
+  padding:0.5vw;
+}
+td{
+  border:10px solid #7ECAD0;
+}
+table button{
+  width: 60%;
+  border:none;
+  background-color:#ff4800;
+  color:white;
+  padding:1vw;
+}
+button{
+  cursor:pointer
+}
