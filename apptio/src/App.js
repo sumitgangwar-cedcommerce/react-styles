@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <div id='content'>
-        <div>
+        <div className='txt'>
           <h1>Get Started with Apptio Today</h1>
           <p>talk to an Appito expert about your specific needs and see a live product demonstration. Discuss current challanges and find the right application for your use case.</p>
         </div>
